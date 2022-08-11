@@ -10,6 +10,18 @@ const nextConfig = {
       },
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: '/auth/register', // jika ada yang akses ini
+        destination: '/register', // lempar kesini
+        permanent: true,
+      },
+    ]
+  },
+  images: {
+    domains: ["res.cloudinary.com"]
+  }
 }
 
 module.exports = nextConfig
