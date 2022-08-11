@@ -7,9 +7,9 @@ export default function UserDetail() {
 
   return (
     <div>
-      <h3>{router.query.slug[0]}</h3>
-      <h3>{router.query.slug[1]}</h3>
-      <h3>{router.query.slug[2]}</h3>
+      {/* <h3>{router.query.slug[0]}</h3> */}
+      {/* <h3>{router.query.slug[1]}</h3> */}
+      {/* <h3>{router.query.slug[2]}</h3> */}
     </div>
   );
 }
